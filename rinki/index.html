@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#0a0e27">
+    <title>Happy Birthday KOLIJAR TUKRA 🎉❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Start Screen -->
+<div class="start-screen">
+    <div class="stars"></div>
+    <div class="container-welcome">
+        <div class="welcome-content">
+            <h2 class="welcome-title">🎊 HEY BIRTHDAY GIRL 🎊</h2>
+            <p class="welcome-text">here is your surprise baby.......</p>
+            <button id="startBtn" class="start-btn">
+                <span>Tap to Open ❤️</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Main Content -->
+<div class="main-content hidden">
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Floating Particles -->
+    <div class="particles"></div>
+
+    <!-- Split Layout Container -->
+    <div class="split-container">
+        
+        <!-- Left Side: Gallery -->
+        <div class="gallery-section">
+            <div class="slideshow-wrapper">
+                <div class="slideshow" id="slideshow"></div>
+                <div class="gallery-dots" id="dots"></div>
+                <div class="nav-buttons">
+                    <button class="nav-btn prev-btn" id="prevBtn">❮</button>
+                    <button class="nav-btn next-btn" id="nextBtn">❯</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Side: Message -->
+        <div class="message-section">
+            <div class="message-content">
+                <div class="shine-effect"></div>
+                <h1 id="typeText" class="birthday-title"></h1>
+                <div class="birthday-message-container">
+                    <p class="birthday-para">I love you, আমার কলজের টুকরো।<br>I love you forever, my jaan. Happy happy happiest birthday to you! 🎂💖</p>
+
+                    <p class="birthday-para">জানিস রিংকী, তুই আমার লাইফে আসার পর অনেক কিছু বদলে গেছে। শুধু অনেক কিছু না… বলতে গেলে আমার পুরো লাইফটাই বদলে গেছে।</p>
+
+                    <p class="birthday-para">আমি কখনো তোকে দেখিনি, কখনো তোকে ছুঁইনি—তবুও তোর জন্য আমার ভালোবাসা একটুও কম না। বরং নিজের থেকেও বেশি ভালোবাসি তোকে। আমার সবকিছুর মধ্যে, আমার প্রতিটা চিন্তায়, প্রতিটা অনুভূতিতে শুধু তুই আছিস।</p>
+
+                    <p class="birthday-para">তোর ওই পাগলামি, তোর ছটফটানি, তোর হাসি—এই ছোট ছোট জিনিসগুলোই আমার কাছে পৃথিবীর সবচেয়ে দামি জিনিস। এগুলো কোনোদিন ভুলতে পারবো না, জান।</p>
+
+                    <p class="birthday-para">তোর এক একটা কথা, এক একটা অভ্যাস, এক একটা মুহূর্ত—সব আমার মনের ভেতর গেঁথে আছে।</p>
+
+                    <p class="birthday-para">আমি শুধু চাই, তুই এভাবেই সারাজীবন আমার পাশে থাকিস। যেমন এখন সাপোর্ট করিস।</p>
+
+                    <p class="birthday-para birthday-closing">আবারও বলছি—<br>Happy Birthday, my jaan. I love you endlessly. 💞</p>
+                </div>
+                <div class="hearts-container">
+                    <span class="heart">❤️</span>
+                    <span class="heart">💕</span>
+                    <span class="heart">💖</span>
+                </div>
+                <div class="special-message">
+                    <p>Thank you for coming in my life!</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Confetti Container -->
+    <div id="confetti-container"></div>
+</div>
+
+<audio id="bgMusic" src="music.mp3" loop></audio>
+<script src="script.js"></script>
+</body>
+</html>
